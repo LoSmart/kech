@@ -8,19 +8,15 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-
   <artifactId>kech-common</artifactId>
   <packaging>pom</packaging>
+  <description>通用组件</description>
   <modules>
     <module>mall-db-start</module>
     <module>mall-log-start</module>
     <module>mall-auth-start</module>
     <module>mall-common-start</module>
   </modules>
-
-  <name>kech-common</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
