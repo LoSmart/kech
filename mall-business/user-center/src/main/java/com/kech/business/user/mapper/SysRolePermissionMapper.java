@@ -2,6 +2,7 @@ package com.kech.business.user.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.kech.common.model.SysRoleMenu;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>
@@ -11,6 +12,7 @@ import com.kech.common.model.SysRoleMenu;
  * @author zscat
  * @since 2019-04-14
  */
+@Mapper
 public interface SysRolePermissionMapper extends BaseMapper<SysRoleMenu> {
 
 }

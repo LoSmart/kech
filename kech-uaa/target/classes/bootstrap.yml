@@ -1,0 +1,36 @@
+server:
+  port: 8000
+
+mall:
+  nacos:
+    server-addr: 49.233.163.188:8848
+
+spring:
+  application:
+    name: uaa-server
+  cloud:
+    nacos:
+      config:
+        server-addr: ${mall.nacos.server-addr}
+        file-extension: yml
+        group: DEFAULT_GROUP
+        ext‐config[0]:
+          data‐id: common.yml
+          refresh: true
+        ext‐config[1]:
+          data‐id: uaa-server.yml
+          refresh: true
+      discovery:
+        server-addr: ${mall.nacos.server-addr}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+encrypt:
+  key-store:
+    location: classpath:zlt.jks
+    secret: zlt!@#$
+    alias: zlt

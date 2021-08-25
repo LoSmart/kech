@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${mall.datasource.ip}:3306/mallcloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: ${mall.datasource.username}
+    password: ${mall.datasource.password}
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.kech.goods.entity
+  global-config:
+    db-config:
+      id-type: auto
+
+mall:
+  cache-manager:
+    configs:
+      - key: menu
+        second: 600
+      - key: user
+        second: 1800

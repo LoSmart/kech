@@ -27,9 +27,9 @@ import java.util.Date;
 @Service
 public class SysStoreServiceImpl extends ServiceImpl<SysStoreMapper, SysStore> implements ISysStoreService {
 
-    @Resource
+    @Autowired
     private SysStoreMapper storeMapper;
-    @Resource
+    @Autowired
     private SysUserMapper userMapper;
     @Autowired
     private ApiContext apiContext;

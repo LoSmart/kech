@@ -26,7 +26,6 @@ import java.io.IOException;
 import java.util.*;
 
 /**
- * @author 作者 owen E-mail: 624191343@qq.com
  * 用户
  */
 @Slf4j

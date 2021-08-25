@@ -2,6 +2,7 @@ package com.kech.business.user.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.kech.common.model.SysDict;
+import org.apache.ibatis.annotations.Mapper;
 
 
 /**
@@ -12,6 +13,7 @@ import com.kech.common.model.SysDict;
  * @author zscat
  * @since 2019-05-21
  */
+@Mapper
 public interface SysDictMapper extends BaseMapper<SysDict> {
 
 }

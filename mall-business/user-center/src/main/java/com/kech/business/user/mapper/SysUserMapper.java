@@ -3,6 +3,7 @@ package com.kech.business.user.mapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.kech.common.model.SysUser;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -14,6 +15,7 @@ import java.util.Map;
  * @author mall
  * @data 2018-10-29
  */
+@Mapper
 public interface SysUserMapper extends BaseMapper<SysUser> {
     /**
      * 分页查询用户列表

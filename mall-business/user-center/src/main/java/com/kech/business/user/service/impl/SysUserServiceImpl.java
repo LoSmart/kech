@@ -25,9 +25,6 @@ import org.springframework.util.StringUtils;
 import javax.annotation.Resource;
 import java.util.*;
 
-/**
- * @author 作者 owen E-mail: 624191343@qq.com
- */
 @Slf4j
 @Service
 public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> implements ISysUserService {

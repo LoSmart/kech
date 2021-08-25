@@ -13,6 +13,7 @@
         <module>kech-monitor</module>
         <module>kech-common</module>
         <module>mall-business</module>
+        <module>kech-uaa</module>
     </modules>
 
     <properties>

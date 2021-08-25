@@ -2,6 +2,7 @@ package com.kech.business.user.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.kech.common.model.SysPermission;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
@@ -10,6 +11,7 @@ import java.util.List;
  *
  * @author mall
  */
+@Mapper
 public interface SysMenuMapper extends BaseMapper<SysPermission> {
 
     List<SysPermission> listMenuByUserId(Long id);

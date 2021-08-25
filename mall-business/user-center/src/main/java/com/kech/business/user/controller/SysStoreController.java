@@ -46,7 +46,7 @@ public class SysStoreController {
     }
 
 
-    @SysLog(MODULE = "sys", REMARK = "根据条件查询所有列表")
+//    @SysLog(MODULE = "sys", REMARK = "根据条件查询所有列表")
     @GetMapping(value = "/list")
     public Object getSysStoreByPage(SysStore entity,
                                     @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum,
