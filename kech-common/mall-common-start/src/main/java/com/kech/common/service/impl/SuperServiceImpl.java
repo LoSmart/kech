@@ -9,10 +9,10 @@ import com.baomidou.mybatisplus.core.toolkit.ReflectionKit;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.baomidou.mybatisplus.core.toolkit.TableInfoHelper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.mallplus.common.exception.IdempotencyException;
-import com.mallplus.common.exception.LockException;
-import com.mallplus.common.lock.DistributedLock;
-import com.mallplus.common.service.ISuperService;
+import com.kech.common.exception.IdempotencyException;
+import com.kech.common.exception.LockException;
+import com.kech.common.lock.DistributedLock;
+import com.kech.common.service.ISuperService;
 
 import java.io.Serializable;
 import java.util.Objects;

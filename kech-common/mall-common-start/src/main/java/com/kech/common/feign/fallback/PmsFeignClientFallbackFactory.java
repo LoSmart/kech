@@ -1,11 +1,11 @@
 package com.kech.common.feign.fallback;
 
-import com.mallplus.common.entity.pms.PmsGifts;
-import com.mallplus.common.entity.pms.PmsProduct;
-import com.mallplus.common.entity.pms.PmsProductConsult;
-import com.mallplus.common.entity.pms.PmsSkuStock;
-import com.mallplus.common.feign.PmsFeignClinent;
-import com.mallplus.common.vo.PromotionProduct;
+import com.kech.common.entity.pms.PmsGifts;
+import com.kech.common.entity.pms.PmsProduct;
+import com.kech.common.entity.pms.PmsProductConsult;
+import com.kech.common.entity.pms.PmsSkuStock;
+import com.kech.common.feign.PmsFeignClinent;
+import com.kech.common.vo.PromotionProduct;
 import feign.hystrix.FallbackFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

@@ -1,6 +1,6 @@
 package com.kech.common.exception;
 
-import com.mallplus.common.model.Result;
+import com.kech.common.model.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.AccessDeniedException;
@@ -72,8 +72,8 @@ public class DefaultExceptionAdvice {
      * 返回状态码:500
      */
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-    @ExceptionHandler(com.mallplus.common.exception.BusinessException.class)
-    public Result handleException(com.mallplus.common.exception.BusinessException e) {
+    @ExceptionHandler(com.kech.common.exception.BusinessException.class)
+    public Result handleException(com.kech.common.exception.BusinessException e) {
         return defHandler("业务异常", e);
     }
 
@@ -82,8 +82,8 @@ public class DefaultExceptionAdvice {
      * 返回状态码:500
      */
     @ResponseStatus(HttpStatus.OK)
-    @ExceptionHandler(com.mallplus.common.exception.IdempotencyException.class)
-    public Result handleException(com.mallplus.common.exception.IdempotencyException e) {
+    @ExceptionHandler(com.kech.common.exception.IdempotencyException.class)
+    public Result handleException(com.kech.common.exception.IdempotencyException e) {
         return Result.failed(e.getMessage());
     }
 

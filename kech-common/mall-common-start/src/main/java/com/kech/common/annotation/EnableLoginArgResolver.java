@@ -1,6 +1,6 @@
 package com.kech.common.annotation;
 
-import com.mallplus.common.config.LoginArgResolverConfig;
+import com.kech.common.config.LoginArgResolverConfig;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.ElementType;

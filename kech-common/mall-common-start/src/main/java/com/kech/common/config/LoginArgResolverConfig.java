@@ -1,7 +1,7 @@
 package com.kech.common.config;
 
-import com.mallplus.common.feign.UserService;
-import com.mallplus.common.resolver.TokenArgumentResolver;
+import com.kech.common.feign.UserService;
+import com.kech.common.resolver.TokenArgumentResolver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;

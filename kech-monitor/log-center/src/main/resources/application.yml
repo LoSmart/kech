@@ -1,10 +1,10 @@
-#spring:
-#  data:
-#    elasticsearch:
-#      cluster-name: ${mall.elasticsearch.cluster-name}
-#      cluster-nodes: ${mall.elasticsearch.cluster-nodes}
-#      repositories:
-#        enabled: true
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elastaicsearch
+      cluster-nodes: 49.233.163.188:9300
+      repositories:
+        enabled: true
 
 mall:
   swagger:
@@ -12,4 +12,4 @@ mall:
     title: 日志中心
     description: 日志中心接口文档
     version: 1.0
-    base-package: com.mallplus.log.controller
+    base-package: com.kech.log.controller

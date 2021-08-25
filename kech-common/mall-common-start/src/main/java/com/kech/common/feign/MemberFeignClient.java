@@ -1,9 +1,9 @@
 package com.kech.common.feign;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.mallplus.common.constant.ServiceNameConstants;
-import com.mallplus.common.entity.ums.*;
-import com.mallplus.common.feign.fallback.MemberFeignClientFallbackFactory;
+import com.kech.common.constant.ServiceNameConstants;
+import com.kech.common.entity.ums.*;
+import com.kech.common.feign.fallback.MemberFeignClientFallbackFactory;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

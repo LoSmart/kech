@@ -4,9 +4,9 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.mallplus.common.entity.BaseEntity;
-import com.mallplus.common.vo.BasicRuls;
-import com.mallplus.common.vo.BeanKv;
+import com.kech.common.entity.BaseEntity;
+import com.kech.common.vo.BasicRuls;
+import com.kech.common.vo.BeanKv;
 import lombok.Data;
 
 import java.io.Serializable;

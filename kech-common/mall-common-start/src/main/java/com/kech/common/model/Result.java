@@ -1,6 +1,6 @@
 package com.kech.common.model;
 
-import com.mallplus.common.entity.BaseEntity;
+import com.kech.common.entity.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

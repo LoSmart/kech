@@ -2,8 +2,8 @@ package com.kech.common.vo;
 
 
 
-import com.mallplus.common.entity.oms.OmsCartItem;
-import com.mallplus.common.entity.oms.OmsOrderItem;
+import com.kech.common.entity.oms.OmsCartItem;
+import com.kech.common.entity.oms.OmsOrderItem;
 import lombok.Data;
 
 import java.io.Serializable;

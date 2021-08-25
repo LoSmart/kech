@@ -1,7 +1,7 @@
 package com.kech.common.vo;
 
 
-import com.mallplus.common.entity.pms.PmsProduct;
+import com.kech.common.entity.pms.PmsProduct;
 import lombok.Data;
 
 import java.io.Serializable;

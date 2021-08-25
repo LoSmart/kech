@@ -3,7 +3,7 @@
  */
 package com.kech.common.entity.sms;
 
-import com.mallplus.common.entity.BaseEntity;
+import com.kech.common.entity.BaseEntity;
 
 import java.io.Serializable;
 import java.sql.Timestamp;

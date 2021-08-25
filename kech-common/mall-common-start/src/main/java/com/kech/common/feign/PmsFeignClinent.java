@@ -1,12 +1,12 @@
 package com.kech.common.feign;
 
-import com.mallplus.common.constant.ServiceNameConstants;
-import com.mallplus.common.entity.pms.PmsGifts;
-import com.mallplus.common.entity.pms.PmsProduct;
-import com.mallplus.common.entity.pms.PmsProductConsult;
-import com.mallplus.common.entity.pms.PmsSkuStock;
-import com.mallplus.common.feign.fallback.PmsFeignClientFallbackFactory;
-import com.mallplus.common.vo.PromotionProduct;
+import com.kech.common.constant.ServiceNameConstants;
+import com.kech.common.entity.pms.PmsGifts;
+import com.kech.common.entity.pms.PmsProduct;
+import com.kech.common.entity.pms.PmsProductConsult;
+import com.kech.common.entity.pms.PmsSkuStock;
+import com.kech.common.feign.fallback.PmsFeignClientFallbackFactory;
+import com.kech.common.vo.PromotionProduct;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

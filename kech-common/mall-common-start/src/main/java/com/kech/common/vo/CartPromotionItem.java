@@ -1,7 +1,7 @@
 package com.kech.common.vo;
 
 
-import com.mallplus.common.entity.oms.OmsCartItem;
+import com.kech.common.entity.oms.OmsCartItem;
 
 import java.math.BigDecimal;
 

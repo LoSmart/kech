@@ -4,8 +4,8 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.mallplus.common.entity.BaseEntity;
-import com.mallplus.common.utils.ValidatorUtils;
+import com.kech.common.entity.BaseEntity;
+import com.kech.common.utils.ValidatorUtils;
 
 import java.io.Serializable;
 import java.util.Arrays;

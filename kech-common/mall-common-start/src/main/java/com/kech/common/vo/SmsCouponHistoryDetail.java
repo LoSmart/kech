@@ -1,10 +1,10 @@
 package com.kech.common.vo;
 
 
-import com.mallplus.common.entity.sms.SmsCoupon;
-import com.mallplus.common.entity.sms.SmsCouponHistory;
-import com.mallplus.common.entity.sms.SmsCouponProductCategoryRelation;
-import com.mallplus.common.entity.sms.SmsCouponProductRelation;
+import com.kech.common.entity.sms.SmsCoupon;
+import com.kech.common.entity.sms.SmsCouponHistory;
+import com.kech.common.entity.sms.SmsCouponProductCategoryRelation;
+import com.kech.common.entity.sms.SmsCouponProductRelation;
 
 import java.util.List;
 

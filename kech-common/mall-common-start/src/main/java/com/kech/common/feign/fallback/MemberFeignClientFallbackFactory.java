@@ -1,8 +1,8 @@
 package com.kech.common.feign.fallback;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.mallplus.common.entity.ums.*;
-import com.mallplus.common.feign.MemberFeignClient;
+import com.kech.common.entity.ums.*;
+import com.kech.common.feign.MemberFeignClient;
 import feign.hystrix.FallbackFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

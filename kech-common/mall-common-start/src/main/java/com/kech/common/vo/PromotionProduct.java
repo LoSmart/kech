@@ -1,10 +1,10 @@
 package com.kech.common.vo;
 
 
-import com.mallplus.common.entity.pms.PmsProduct;
-import com.mallplus.common.entity.pms.PmsProductFullReduction;
-import com.mallplus.common.entity.pms.PmsProductLadder;
-import com.mallplus.common.entity.pms.PmsSkuStock;
+import com.kech.common.entity.pms.PmsProduct;
+import com.kech.common.entity.pms.PmsProductFullReduction;
+import com.kech.common.entity.pms.PmsProductLadder;
+import com.kech.common.entity.pms.PmsSkuStock;
 
 import java.util.List;
 
