@@ -12,6 +12,7 @@
         <module>mall-gateway</module>
         <module>kech-monitor</module>
         <module>kech-common</module>
+        <module>mall-business</module>
     </modules>
 
     <properties>
@@ -33,6 +34,8 @@
         <sharding-sphere.version>3.1.0</sharding-sphere.version>
         <commons-collections4.version>4.2</commons-collections4.version>
         <fastjson.version>1.2.54</fastjson.version>
+        <aliyun-sdk-oss>3.4.0</aliyun-sdk-oss>
+        <qiniu-java-sdk>7.2.17</qiniu-java-sdk>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>

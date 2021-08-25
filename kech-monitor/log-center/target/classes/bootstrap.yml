@@ -1,0 +1,17 @@
+server:
+  port: 7200
+
+mall:
+  nacos:
+    server-addr: 49.233.163.188:8848
+
+spring:
+  application:
+    name: log-center
+  cloud:
+    nacos:
+      config:
+        server-addr: ${mall.nacos.server-addr}
+        file-extension: yml
+      discovery:
+        server-addr: ${mall.nacos.server-addr}

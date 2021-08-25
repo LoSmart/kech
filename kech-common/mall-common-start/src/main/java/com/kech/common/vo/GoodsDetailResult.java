@@ -10,7 +10,6 @@ import java.util.List;
 
 /**
  * 创建和修改商品时使用的参数
- * https://github.com/shenzhuan/mallplus on 2018/4/26.
  */
 @Data
 public class GoodsDetailResult implements Serializable {
